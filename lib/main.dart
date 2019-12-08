@@ -9,35 +9,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+          child: Column(
             children: <Widget>[
-              Container(
-                height: 100.00,
-                width: 100.00,
-                color: Colors.red,
+              CircleAvatar(
+                radius: 50,
+                backgroundImage: AssetImage('images/profil.png'),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Container(
-                    height: 100.00,
-                    width: 100.00,
-                    color: Colors.yellowAccent,
-                  ),
-                  Container(
-                    height: 100.00,
-                    width: 100.00,
-                    color: Colors.green,
-                  ),
-                ],
-              ),
-              Container(
-                height: 100.00,
-                width: 100.00,
-                color: Colors.blue,
-              ),
+              Text(
+                'Mat Carrot',
+                style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
+              )
             ],
           ),
         ),
