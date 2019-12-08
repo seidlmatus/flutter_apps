@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,10 +20,21 @@ class MyApp extends StatelessWidget {
                 'Mat Carrot',
                 style: TextStyle(
                   fontSize: 40,
+                  fontFamily: 'Pacifico',
                   color: Colors.white,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
                 ),
-              )
+              ),
+              Text(
+                'Flutter Developer',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
