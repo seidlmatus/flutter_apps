@@ -46,7 +46,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
       - images/diamond.png
-      - images/profil.png
+      - images/profil.jpg
 
   fonts:
   - family: Pacifico

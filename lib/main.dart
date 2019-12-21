@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('images/profil.png'),
+                backgroundImage: AssetImage('images/profil.jpg'),
               ),
               Text(
                 'Mat Carrot',
